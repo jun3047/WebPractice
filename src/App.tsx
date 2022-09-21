@@ -8,6 +8,7 @@ import reducer from "./store";
 
 function App() {
   const store = createStore(reducer);
+  
   return (
     <div>
       <Provider store={store}>
